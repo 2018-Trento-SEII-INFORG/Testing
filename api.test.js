@@ -42,7 +42,7 @@ it('works with post', async () => {
         body: JSON.stringify({name: 'hello course'}),
         headers: {
         'Content-Type': 'application/json',
-        },
+        }
     })
     var json = await response.json()
     expect(response.status).toEqual(201)
