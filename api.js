@@ -5,6 +5,7 @@ const app = express()
 app.use( bodyParser.json() )
 app.use(bodyParser.urlencoded({ extended: true }));
 
+//this is an environment variable available on Heroku
 const PORT = process.env.PORT || 3000
 
 var courses_offered = [{id: 21, name: 'HCI'}, {id: 28, name:'sweng'}]

@@ -2,7 +2,7 @@
   "name": "apibasics",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "api.js",
   "scripts": {
     "start": "node api.js",
     "test": "jest"
